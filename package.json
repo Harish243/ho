@@ -1,0 +1,29 @@
+{
+  "name": "iho_portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "knex": "^0.14.4",
+    "morgan": "^1.9.0",
+    "mongojs": "^2.5.0",
+    "nodemailer": "^4.6.3",
+    "pg": "^7.4.1",
+    "pug": "^2.0.1",
+    "serve-favicon": "^2.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pharish@bitbucket.org/teamevaidya/iho_portal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/teamevaidya/iho_portal#readme"
+}

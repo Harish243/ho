@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html ng-app="iho">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/evaidyaelement.ico" type="image/jpg" sizes="16x16">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>IHO Login</title>
+    <link rel="stylesheet" href="css/login_css.css">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+    <!-- style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Morris Charts CSS -->
+    <link href="css/plugins/morris.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/toaster.css" type="text/css" />
+</head>
+
+<body>
+    <toaster-container toaster-options="{'time-out': 5000,'close-button': true}"></toaster-container>
+    <div ui-view></div>
+    <script src="scripts/angular/angular.min.js"></script>
+    <script src="scripts/angular/angular-ui-router.js"></script>
+    <!-- <script  src="../js/index.js"></script> -->
+    <script src="scripts/jquery.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/globalConfig.js"></script>    
+    <script src="js/toaster.js"></script>
+    <script src="js/exportExel.js"></script>
+    
+    <!-- <script src="js/loginValidation.js"></script> -->
+    <!-- IHO_customercare controllers -->
+    <script src="js/controllers/LoginCtrl.js"></script>
+    <script src="js/controllers/IHO_Customercare_Controllers/mainCtrl.js"></script>
+    <script src="js/controllers/appFactory.js"></script>
+    <script src="js/controllers/IHO_Customercare_Controllers/customerCtrl.js"></script>
+    <script src="js/controllers/IHO_Customercare_Controllers/termsCtrl.js"></script>
+    <script src="js/controllers/IHO_Customercare_Controllers/useCtrl.js"></script>
+    <script src="js/controllers/IHO_Customercare_Controllers/faqCtrl.js"></script>
+    <script src="js/controllers/IHO_Customercare_Controllers/misCtrl.js"></script>
+    <script src="js/controllers/IHO_Customercare_Controllers/appointment_datesCtrl.js"></script>
+    <script src="js/controllers/IHO_Customercare_Controllers/iho_changepasswordCtrl.js"></script>
+    
+    
+    <!-- eVaidya CustomerCare Controllers -->
+    <script src="js/controllers/eVaidya_Controllers/add_customerCtrl.js"></script>
+    <script src="js/controllers/eVaidya_Controllers/profileCtrl.js"></script>
+    <script src="js/controllers/eVaidya_Controllers/customer_listCtrl.js"></script>
+    <script src="js/controllers/eVaidya_Controllers/fallowupCtrl.js"></script>
+    <script src="js/controllers/eVaidya_Controllers/expireCtrl.js"></script>
+    <script src="js/controllers/eVaidya_Controllers/evaidya_changepasswordCtrl.js"></script>
+    <script src="js/controllers/eVaidya_Controllers/appointment_datesCtrl1.js"></script>
+    
+    
+    <!-- Services -->
+    <script src="services/loginService.js"></script>
+    
+    <!-- Dietitian Controllers -->
+    <script src="js/controllers/Dietitian/appoinmentCtrl.js"></script>
+    <script src="js/controllers/Dietitian/feedbackCtrl.js"></script>
+    <!-- Enduser Controllers -->
+    <!-- <script src="js/controllers/enduser/passwordCtrl.js"></script> -->
+    <script src="js/controllers/enduser/healthCtrl.js"></script>
+    <script src="js/controllers/enduser/contactCtrl.js"></script>
+    <script src="js/controllers/enduser/faq1Ctrl.js"></script>
+    <script src="js/controllers/enduser/how_to_useCtrl.js"></script>
+    <script src="js/controllers/enduser/terms_conditionsCtrl.js"></script>
+    <script src="js/controllers/enduser/enduser_changepasswordCtrl.js"></script>
+    
+     <!-- Bootstrap Core JavaScript -->
+    <script src="scripts/bootstrap.min.js"></script>
+    <!-- Morris Charts JavaScript -->
+    <script src="scripts/plugins/morris/raphael.min.js"></script>
+    <script src="scripts/plugins/morris/morris.min.js"></script>
+    <script src="scripts/plugins/morris/morris-data.js"></script>
+</body>
+
+</html>
